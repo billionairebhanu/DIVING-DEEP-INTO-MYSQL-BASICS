@@ -107,16 +107,17 @@ DATATYPES : (A) String (B) Number (C) Date
 13. SET (Val 1,Val 2,Val 3...) list upto 64 values
 
  -- NUMBER DATATYPES
-BIT(size) 1 to 64
-TinyInt(size) - 128 to 127 (signed) or 0 to 255 (unsigned)
-Int/Integer - -2147483648 to 2147483647
-SmallInt(Size) - Range is -32,768 to 32,767 (signed) or 0 to 65,535 (unsigned).
-MediumInt(Size) -8388608 to 8388607
-BigInt(Size) -  -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (signed). 
-Bool - Non-zero values are treated as TRUE
-Boolean - same as bool
-Float - used to store approximate decimal values
-Decimal / Dec(Size,d) it means id i write (5,2) - 999.99 - total values we can put here is 5 and out of 5 last two values will reserved for decimal.
+
+    BIT(size) 1 to 64
+    TinyInt(size) - 128 to 127 (signed) or 0 to 255 (unsigned)
+    Int/Integer - -2147483648 to 2147483647
+    SmallInt(Size) - Range is -32,768 to 32,767 (signed) or 0 to 65,535 (unsigned).
+    MediumInt(Size) -8388608 to 8388607
+    BigInt(Size) -  -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (signed). 
+    Bool - Non-zero values are treated as TRUE
+    Boolean - same as bool
+    Float - used to store approximate decimal values
+    Decimal / Dec(Size,d) it means id i write (5,2) - 999.99 - total values we can put here is 5 and out of 5 last two values will reserved for decimal.
 
  -- DATE DATATYPES
 Date - '1000-01-01' to '1999-12-31'
